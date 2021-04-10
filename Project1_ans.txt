@@ -1,0 +1,9 @@
+PROJECT 1 QUESTIONS
+
+1) Since ECEF origin is the center of the earth, there is a pretty large biased by the large offset.  Also, the X and Y axis for both ECEF and Geodetic reference the equator and Prime Meridian, but ECEF has a Z axis that is referenced by the North Pole.  Geodetic doesn't necessarily have a specific axis reference. This causes the Up value to go negative when converted from ECEF to ENU unlike Geodetic to ENU where Geodetic references altitude by surface of the earth.
+
+2) You could say they both are correct. One reference the altitude from the surface which will be consistent and the other references the origin from the center of the earth with the altitude (Z axis) of ECEF being referenced with the +Z axis passing through the North Pole.
+
+3) 300 meters for altitude from my code
+
+4) 600 meters for east and north from my code
